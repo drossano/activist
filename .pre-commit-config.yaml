@@ -46,6 +46,7 @@ repos:
         files: ^frontend/
         entry: i18n-check -a
         language: python
+        additional_dependencies: [i18n_check, packaging]
         pass_filenames: false
 
       - id: prettier-eslint-checks
